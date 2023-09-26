@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resultados SYSTEM "resultados.dtd">
+<resultados>
+    <partido fecha="2023-03-21">
+        <equipos>
+            <local nombre="América">
+                <jugador nombre="Henry Martín" gol="1" minuto="20" />
+                <jugador nombre="Jonathan Rodríguez" gol="2" minuto="60" />
+            </local>
+            <visitante nombre="Tigres">
+                <jugador nombre="André-Pierre Gignac" gol="1" minuto="80" />
+            </visitante>
+        </equipos>
+        <marcador>2-1</marcador>
+        <fecha>2023-03-21</fecha>
+    </partido>
+    <partido fecha="2023-03-21">
+        <equipos>
+            <local nombre="Cruz Azul">
+                <jugador nombre="Santiago Giménez" gol="1" minuto="30" />
+            </local>
+            <visitante nombre="Pumas UNAM">
+                <jugador nombre="Juan Ignacio Dinenno" gol="1" minuto="50" />
+            </visitante>
+        </equipos>
+        <marcador>1-1</marcador>
+        <fecha>2023-03-21</fecha>
+    </partido>
+</resultados>

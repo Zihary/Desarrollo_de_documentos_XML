@@ -1,0 +1,14 @@
+<!ELEMENT resultados (partido+)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT partido (equipos, marcador, fecha)>
+        <!ATTLIST partido fecha CDATA #REQUIRED>
+        <!ELEMENT equipos (local, visitante)>
+        <!ELEMENT local (jugador+)>
+        <!ELEMENT visitante (jugador+)>
+        <!ELEMENT jugador EMPTY>
+        <!ATTLIST jugador nombre CDATA #REQUIRED>
+        <!ATTLIST jugador gol CDATA #REQUIRED>
+        <!ATTLIST jugador minuto CDATA #REQUIRED>
+        <!ATTLIST local nombre CDATA #REQUIRED>
+        <!ATTLIST visitante nombre CDATA #REQUIRED>
+        <!ELEMENT marcador (#PCDATA)>
